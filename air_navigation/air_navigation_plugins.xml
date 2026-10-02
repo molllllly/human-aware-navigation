@@ -1,0 +1,15 @@
+<class_libraries>
+    <library path="air_navigation">
+        <class type="air_navigation::PythonController" base_class_type="nav2_core::Controller">
+            <description>
+                air_navigation_python_controller
+            </description>
+        </class>
+    <class type="air_navigation::PythonTrajectoryGenerator" base_class_type="dwb_core::TrajectoryGenerator">
+      <description></description>
+    </class>
+    <class type="air_navigation::PythonTrajectoryCritic" base_class_type="dwb_core::TrajectoryCritic">
+      <description></description>
+    </class>
+  </library>
+</class_libraries>
